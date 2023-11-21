@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>gitCard - Cartão de Visitas criado com Git</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="gitcard.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="github-card.js"></script>
+</head>
+
+<body class="initial-page">
+
+    <div class="initial-content">
+        <h1>Buscador de perfil GITHUB</h1>
+        <p>Encontre perfis do GitHub facilmente</p>
+        <div class="search-container">
+            <input type="text" name="usuario-github" id="usuario-github" placeholder="Digite um nome de usuário do GitHub" />
+            <button name="buscar-github" id="buscar-github">Buscar</button>
+        </div>
+        <div class="suggestions-container">
+            <ul id="suggestions-list"></ul>
+        </div>
+        <div class="example-profiles">
+            <img src="https://avatars.githubusercontent.com/u/583231?v=4" >
+            <img src="https://avatars.githubusercontent.com/u/1508207?v=4" >
+            <img src="https://avatars.githubusercontent.com/u/789390?v=4" >
+        </div>
+    </div>
+
+    <div class="github-card user-card">
+        <div class="header User"></div>
+        <a class="avatar" href="#" target="_top">
+            <img src="https://avatars.githubusercontent.com/u/105293872?v=4" alt="perfil do Avatar">
+        </a>
+        <div class="content">
+            <h1>Nome do usuario git</h1>
+            <ul class="status">
+                <li><a href="#" target="_top"><strong>40</strong> Repositórios</a></li>
+                <li><a href="#" target="_top"><strong>2</strong> Gists</a></li>
+                <li><a href="#" target="_top"><strong>21</strong> Seguidores</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
